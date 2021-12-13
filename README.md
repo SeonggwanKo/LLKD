@@ -59,7 +59,7 @@ Zero-DCE : https://github.com/Li-Chongyi/Zero-DCE -->
 
 # Dataset
 <p align="center">
-<img src = "./assets/1.jpg" width="80%">
+<img src = "./assets/1.JPG" width="80%">
 <p>
 We provide 10,000 training pairs and 387 test images.
 
