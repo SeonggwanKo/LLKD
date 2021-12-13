@@ -48,12 +48,11 @@ To train the proposed model, the following options are required:
 python train.py --lowlight_images_path 'your_dataset_path' --gt_images_path 'your_GT_dataset_path' --pretrain_dir  'your_pretrain_path'
 ```
 
-`lowlight_images_path` is your low-light images
+`lowlight_images_path` is the path of your low-light image
 
-`gt_images_path` is your ground truth images
+`gt_images_path` is the path of your ground truth image
 
-`pretrain_dir` is your pretrained teacher model
-
+`pretrain_dir` is the path of your pretrained teacher model path
 
 # Dataset
 <p align="center">
