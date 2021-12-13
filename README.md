@@ -50,7 +50,7 @@ python train.py --lowlight_images_path 'your_dataset_path' --gt_images_path 'you
 
 `lowlight_images_path` is the path of your low-light image
 
-`gt_images_path` is the path of your ground truth image
+`gt_images_path` is the path of your ground-truth image
 
 `pretrain_dir` is the path of your pretrained teacher model path
 
