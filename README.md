@@ -27,7 +27,7 @@ The following packages must be installed to perform the proposed model:
 
 
 ## Test 
-Test datasets should be arranged as the following folder `TEST/testset`.
+Test datasets should be arranged as the following folder `dataset/test`.
 ```bash
 dataset
 │   ├── test
