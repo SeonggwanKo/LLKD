@@ -73,13 +73,11 @@ Please click [here]() if you want to download our dataset.
 
 ## Citation
 ```
-@ARTICLE{,
- author = {Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images},
- title = {seonggwan ko, jinsun park, byungjoo chae and donghyeon cho},
- booktitle = {Signal Processing Letters},
- pages    = {},
- month = {},
- year = {2021}
+ @ARTICLE{,
+  author={S. {Ko} and J. {Park} and B. {Chae}and D. {Cho}},
+  journal={IEEE Signal Processing Letters}, 
+  title={Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images}, 
+  year={2021}
 }
 ```
 
