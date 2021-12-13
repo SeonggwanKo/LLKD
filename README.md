@@ -45,17 +45,15 @@ python test.py
 ## Train
 To train the proposed model, the following options are required:
 ```
-python train.py --lowlight_images_path your_dataset_path --gt_images_path your_GT_dataset_path --pretrain_dir  your_pretrain_path
+python train.py --lowlight_images_path 'your_dataset_path' --gt_images_path 'your_GT_dataset_path' --pretrain_dir  'your_pretrain_path'
 ```
 
-`lowlight_images_path` is required your low-light datasets
+`lowlight_images_path` is your low-light images
 
-`gt_images_path` is required your pseudo well-exposed datasets 
+`gt_images_path` is your ground truth images
 
-`pretrain_dir` is required your teacher model
+`pretrain_dir` is your pretrained teacher model
 
-<!-- ## Credit
-Zero-DCE : https://github.com/Li-Chongyi/Zero-DCE -->
 
 # Dataset
 <p align="center">
@@ -84,7 +82,7 @@ Please click [here]() if you want to download our dataset.
 
 ## License and Acknowledgement
 The code framework is mainly modified from [Zero-DCE](https://github.com/Li-Chongyi/Zero-DCE), [AdaBelief](https://github.com/juntang-zhuang/Adabelief-Optimizer) and [SPKD](https://github.com/DongGeun-Yoon/SPKD). Please refer to the original repo for more usage and documents.
-Thanks to authers for sharing the codes!
+Thanks to authors for sharing the codes!
 
 
 
