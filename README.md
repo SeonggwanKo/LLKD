@@ -58,9 +58,9 @@ python train.py --lowlight_images_path 'your_dataset_path' --gt_images_path 'you
 <p align="center">
 <img src = "./assets/1.JPG" width="80%">
 <p>
-We provide 10,000 training pairs and 387 test images.
+We will provide 10,000 training pairs and 387 test images soon.
 
-Please click [here]() if you want to download our dataset.
+<!-- Please click [here]() if you want to download our dataset. -->
 
 ## Dataset Creation
 - We collected 25,967 low-light images from BDD100k(4,830 images) and Dark Zurich(5,336 images), LoLi-Phone(6,442 images), ExDark(7,263 images), SICE(1,611), LOL(485 images).
