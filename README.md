@@ -4,7 +4,7 @@
 This repository contains the implementation of the following paper:
 >**Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images**<br>
 >Seonggwan Ko*, Jinsun Park*, Byungjoo Chae and Donghyeon Cho<br>
->Signal Processing Letters<br>
+>IEEE Signal Processing Letters<br>
 >[[pdf](https://ieeexplore.ieee.org/abstract/document/9648037)] <br>
  
 
