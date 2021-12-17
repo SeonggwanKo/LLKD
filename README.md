@@ -6,7 +6,7 @@ This repository contains the implementation of the following paper:
 >Seonggwan Ko*, Jinsun Park*, Byungjoo Chae and Donghyeon Cho<br>
 >Signal Processing Letters<br>
  
-[pdf](https://ieeexplore.ieee.org/abstract/document/9648037)
+[[pdf](https://ieeexplore.ieee.org/abstract/document/9648037)]
 
 # Overview
 <p align="center">
@@ -72,11 +72,12 @@ We will provide 10,000 training pairs and 387 test images soon.
 
 ## Citation
 ```
- @ARTICLE{,
-  author={S. {Ko} and J. {Park} and B. {Chae} and D. {Cho}},
-  journal={IEEE Signal Processing Letters}, 
-  title={Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images}, 
-  year={2021}
+@article{ko2021learning,
+  title={Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images},
+  author={Ko, Seonggwan and Park, Jinsun and Chae, Byungjoo and Cho, Donghyeon},
+  journal={IEEE Signal Processing Letters},
+  year={2021},
+  publisher={IEEE}
 }
 ```
 
