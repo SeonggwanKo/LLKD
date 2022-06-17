@@ -10,7 +10,19 @@ def spatial_similarity(fm): # spatial similarity
     s = norm_fm.transpose(1,2).bmm(norm_fm)
     s = s.unsqueeze(1)
     return s
-	
+
+class L_feat_ext(nn.Module):
+    def __init__(self):
+        super(L_feat_ext,self).__init__()
+
+    def forward(self, x,y):
+        loss = 0
+        layers = zip(x,y)
+        for l_x, l_y in layers :
+            #b, c, h ,w = l_x.shape
+            loss += torch.mean(torch.pow((l_x - l_y),2))
+        return loss
+
 class L_spa(nn.Module):
 
     def __init__(self):
