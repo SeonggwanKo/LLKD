@@ -11,6 +11,15 @@ def spatial_similarity(fm): # spatial similarity
     s = s.unsqueeze(1)
     return s
 
+class L_mse(nn.Module):
+    def __init__(self):
+        super(L_mse,self).__init__()
+        self.mse = nn.MSELoss()
+
+    def forward(self, x,y):
+        return self.mse(x,y)
+    
+
 class L_feat_ext(nn.Module):
     def __init__(self):
         super(L_feat_ext,self).__init__()
@@ -79,7 +88,6 @@ class L_exp(nn.Module):
         self.pool = nn.AvgPool2d(patch_size)
         self.mean_val = mean_val
     def forward(self, x ):
-
         b,c,h,w = x.shape
         x = torch.mean(x,1,keepdim=True)
         mean = self.pool(x)
