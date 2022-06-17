@@ -1,12 +1,16 @@
 # Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images
 
+![Python 3.7](https://img.shields.io/badge/python-3.7-green.svg?style=plastic)
+![pytorch 1.7.1](https://img.shields.io/badge/pytorch-1.7.1-green.svg?style=plastic)
 
 This repository contains the implementation of the following paper:
 >**Learning Lightweight Low-Light Enhancement Network using Pseudo Well-Exposed Images**<br>
 >Seonggwan Ko*, Jinsun Park*, Byungjoo Chae and Donghyeon Cho<br>
 >IEEE Signal Processing Letters<br>
 >[[pdf](https://ieeexplore.ieee.org/abstract/document/9648037)] 
-[[dataset](https://cnu365-my.sharepoint.com/:u:/g/personal/gggch414_o_cnu_ac_kr/EQfMUlKNtz5PmwzU2IDTtJMBKd1ZMwpi40FIqWP_nEZUdA?e=1jfhNK)] <br>
+[[dataset](https://cnu365-my.sharepoint.com/:u:/g/personal/gggch414_o_cnu_ac_kr/EQfMUlKNtz5PmwzU2IDTtJMBKd1ZMwpi40FIqWP_nEZUdA?e=1jfhNK)] 
+[[StudentNetwork](https://github.com/gggch414/LLKD/tree/main/llkd/snapshots)]
+[TeacherNetwork(Coming Soon)] <br>
 
 
 # Overview
@@ -66,7 +70,7 @@ We provide 9,983 training pairs and 366 test images.
 Please click [here](https://cnu365-my.sharepoint.com/:u:/g/personal/gggch414_o_cnu_ac_kr/EQfMUlKNtz5PmwzU2IDTtJMBKd1ZMwpi40FIqWP_nEZUdA?e=1jfhNK) to download Low-light CNU(LLCNU) dataset.
 
 ## Dataset Creation
-- We collected 25,967 low-light images from BDD100k(4,830 images) and Dark Zurich(5,336 images), LoLi-Phone(6,442 images), ExDark(7,263 images), SICE(1,611), LOL(485 images).
+- We collected 25,967 low-light images from [BDD100k](https://doc.bdd100k.com/download.html)(4,830 images) and [Dark Zurich](https://www.trace.ethz.ch/publications/2019/GCMA_UIoU/)(5,336 images), [LoLi-Phone(now LLIV)](https://drive.google.com/file/d/1QS4FgT5aTQNYy-eHZ_A89rLoZgx_iysR/view)(6,442 images), [ExDark](https://github.com/cs-chan/Exclusively-Dark-Image-Dataset/tree/master/Dataset)(7,263 images), [SICE](https://github.com/csjcai/SICE)(1,611), [LOL](https://drive.google.com/file/d/157bjO1_cFuSd0HWDUuAmcHRJDVyWpOxB/view)(485 images).
 - Then, we generate pseudo well-exposed images using the pretrained EnlightenGAN, and additionally reduce noise using DnCNN.
 
 
